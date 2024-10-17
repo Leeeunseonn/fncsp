@@ -226,7 +226,7 @@ def crawl_main(CompanyName, biz_no, id):
                     Kipris_data['ExaminationCount'] = ExaminationCount # 심사청구항수
                     Kipris_data['AstrtCont'] = AstrtCont # 요약
 
-                    continue
+                    continue 
 
                 if k == 'Sub02': # 인명정보
                     InventorCount = len(soup.select('#divBiblioContent > table:nth-child(6) > tbody > tr')) # 발명자수
